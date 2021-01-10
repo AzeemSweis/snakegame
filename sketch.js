@@ -28,7 +28,7 @@ function keyPressed() {
     snake.setDir(0, 1)
   } else if (keyCode === LEFT_ARROW) {
     snake.setDir(-1, 0)
-  } else if (keyCode === ' ') {
+  } else if (keyCode == ' ') {
     snake.grow();
   }
 }
